@@ -1,0 +1,140 @@
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-header">
+        <h5 class="card-title">Central de notificações</h5>
+        <p class="card-category">
+          Atualizado a cada 100ms
+        </p>
+      </div>
+      <div class="card-body">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="card card-plain">
+              <div class="card-header">
+                <h5 class="card-title">Alertas de email</h5>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-info">
+                  <span>Mensagem recebida</span>
+                </div>
+                <div class="alert alert-info alert-dismissible fade show">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span>Notificação de mensagem externa.</span>
+                </div>
+                <div class="alert alert-info alert-with-icon alert-dismissible fade show" data-notify="container">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="nc-icon nc-bell-55"></span>
+                  <span data-notify="message">Alerta de evento agendado</span>
+                </div>
+                <div class="alert alert-info alert-with-icon alert-dismissible fade show" data-notify="container">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span data-notify="icon" class="nc-icon nc-chart-pie-36"></span>
+                  <span data-notify="message">Previa de mensagem de app de comunicação</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-plain">
+              <div class="card-header">
+                <h5 class="card-title">Alertas por status</h5>
+              </div>
+              <div class="card-body">
+                <div class="alert alert-primary alert-dismissible fade show">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span>
+                    <b> Primaria - </b> Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class="alert alert-info alert-dismissible fade show">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span>
+                    <b> Info - </b> Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class="alert alert-success alert-dismissible fade show">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span>
+                    <b> Sucesso - </b> Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class="alert alert-warning alert-dismissible fade show">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span>
+                    <b> Urgente - </b> Lorem ipsum dolor sit amet</span>
+                </div>
+                <div class="alert alert-danger alert-dismissible fade show">
+                  <button type="button" aria-hidden="true" class="close" data-dismiss="alert" aria-label="Close">
+                    <i class="nc-icon nc-simple-remove"></i>
+                  </button>
+                  <span>
+                    <b> Critica - </b> Lorem ipsum dolor sit amet.</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12">
+    <div class="card">
+      <div class="card-body">
+        <div class="places-buttons">
+          <div class="row">
+            <div class="col-md-6 ml-auto mr-auto text-center">
+              <h4 class="card-title">
+                Controle do mesageiro
+                <p class="category">Escolha o mensageiro</p>
+              </h4>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 ml-auto mr-auto">
+              <div class="row">
+                <div class="col-md-4">
+                  <button class="btn btn-primary btn-block" (click)="showNotification('top','left')">Whatss</button>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn btn-primary btn-block" (click)="showNotification('top','center')">Telegram</button>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn btn-primary btn-block" (click)="showNotification('top','right')">Slack</button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="row">
+            <div class="col-lg-8 ml-auto mr-auto">
+              <div class="row">
+                <div class="col-md-4">
+                  <button class="btn btn-primary btn-block" (click)="showNotification('bottom','left')">Discord</button>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn btn-primary btn-block" (click)="showNotification('bottom','center')">Outlook</button>
+                </div>
+                <div class="col-md-4">
+                  <button class="btn btn-primary btn-block" (click)="showNotification('bottom','right')">Gmail</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
