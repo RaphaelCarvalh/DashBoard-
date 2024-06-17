@@ -8,7 +8,7 @@ Angular está usando Ng Bootstrap, como estrutura principal.
 
 **Suporte ao Bootstrap**
 
-Angular é construído sobre o Bootstrap, portanto, oferece suporte total. 
+Angular dasboard é construído sobre o Bootstrap, portanto, oferece suporte total. 
 ## Suporte
 
 Atualmente há suporte as últimas versões dos seguintes navegadores:
